@@ -45,7 +45,7 @@ const App = () => {
         <TopCont>
           A D V I C E &nbsp; {`#${quote.id}`.split("").join(" ")}
         </TopCont>
-        <Quote>&ldquo;{quote.advice}&rdquo;</Quote>
+        <Quote>{/* &ldquo;{quote.advice}&rdquo; */}</Quote>
         <BottomCont>
           <DividerCon>
             <MobileDivider />
