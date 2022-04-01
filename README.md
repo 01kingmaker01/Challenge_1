@@ -31,13 +31,13 @@ Users should be able to:
 ### Screenshot
 
 - Desktop View
-  ![Desktop View](src\images\challenge\desktop.png)
+  ![Desktop View](./src/images/challenge/desktop.png)
 
 - Phone View
-  ![Phone View](src\images\challenge\Phone.png)
+  ![Phone View](./src/images/challenge/Phone.png)
 
 - Lightromm test
-  ![Lighthouse Test](src\images\challenge\lighthouse.png)
+  ![Lighthouse Test](./src/images/challenge/lighthouse.png)
 
 ### Links
 
