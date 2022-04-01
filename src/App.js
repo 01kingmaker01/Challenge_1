@@ -12,7 +12,7 @@ const Box = tw.div`w-11/12 bg-dark-grayish-blue shadow-xl rounded-xl  relative  
 
 const TopCont = tw.div` mt-10 mb-6 text-secondary text-xs font-medium md:(mt-12 font-size[.85rem])  `;
 
-const Quote = tw.p` font-bold text-primary px-6 pb-6 pt-0 font-manrope font-size[24px] letter-spacing[0.5px]  line-height[normal] md:(leading-10 font-stretch[semi-condensed] font-size[28px] pt-2 px-10  pb-11 )`;
+const Quote = tw.p` font-bold text-primary px-6 pb-6 pt-0 font-manrope font-size[24px] letter-spacing[0.5px]  line-height[normal] md:(leading-10 font-size[28px] pt-2 px-10  pb-11 )`;
 
 const BottomCont = tw.div``;
 
@@ -52,9 +52,7 @@ const App = () => {
           A D V I C E &nbsp; {quote.id && `#${quote.id}`.split("").join(" ")}
         </TopCont>
         <Quote>
-          &ldquo;It is easy to sit up and take notice, what's difficult is
-          getting up and taking action&rdquo;
-          {/* &ldquo;{quote.advice ? quote.advice : " Loading..."}&rdquo; */}
+          &ldquo;{quote.advice ? quote.advice : " Loading..."}&rdquo;
         </Quote>
         <BottomCont>
           <DividerCon>
