@@ -66,7 +66,6 @@ Through these challenges, I have learned how to use TwinMacro more effectively.
 I have used useState hook, and useEffect hook in the react functional component.
 My CSS Flexbox and Grid knowledge has been brushed up.
 
-To see how you can add code snippets, see below:
 
 ```js
 const Container = tw.div`mt-10 mb-6 text-secondary text-xs font-medium md:(mt-12 font-size[.85rem])`;
